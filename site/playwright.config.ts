@@ -1,7 +1,7 @@
 import { defineConfig, devices } from "@playwright/test";
 
 // End-to-end tests drive the real page in a real browser: locally against the dev server, in CI against the build,
-// and against the published site with  BASE_URL=https://site-health-monitor.vercel.app npx playwright test
+// and against the published site with  BASE_URL=https://pharma-site-health.vercel.app npx playwright test
 const remote = process.env.BASE_URL;
 
 export default defineConfig({

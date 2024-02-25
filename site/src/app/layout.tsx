@@ -9,7 +9,7 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   // Share-image addresses are built from this; set NEXT_PUBLIC_SITE_URL to the real address when the site is published.
-  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL ?? "https://site-health-monitor.vercel.app"),
+  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL ?? "https://pharma-site-health.vercel.app"),
   title: "Site Health Monitor: weekly Lighthouse audits of MSD and peer websites",
   description:
     "Automated mobile Lighthouse audits of msd.com and peer pharmaceutical websites: scores, loading speed, the platform each runs on, and a ranked fix backlog written for WordPress.",
