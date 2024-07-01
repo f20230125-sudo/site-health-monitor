@@ -1,0 +1,246 @@
+{
+ "page": {
+  "id": "msd-home",
+  "company": "MSD",
+  "group": "MSD",
+  "page": "Home",
+  "url": "https://www.msd.com/"
+ },
+ "audited": "2026-10-27",
+ "device": "mobile",
+ "runs": [
+  {
+   "finalUrl": "https://www.msd.com/",
+   "status": "ok",
+   "error": null,
+   "scores": {
+    "performance": 0.47,
+    "accessibility": 0.9,
+    "best-practices": 0.75,
+    "seo": 0.92
+   },
+   "metrics": {
+    "largest-contentful-paint": 7773.350999999999,
+    "cumulative-layout-shift": 0.02122339292794956,
+    "total-blocking-time": 1514.563,
+    "first-contentful-paint": 1117.0300000000002,
+    "speed-index": 4408.131770616291,
+    "total-byte-weight": 2262095,
+    "server-response-time": 12.781999999999996
+   },
+   "failing": [
+    {
+     "id": "is-on-https",
+     "title": "Does not use HTTPS",
+     "score": 0,
+     "savingsMs": null,
+     "items": 1
+    },
+    {
+     "id": "max-potential-fid",
+     "title": "Max Potential First Input Delay",
+     "score": 0.28,
+     "savingsMs": null,
+     "items": null
+    },
+    {
+     "id": "errors-in-console",
+     "title": "Browser errors were logged to the console",
+     "score": 0,
+     "savingsMs": null,
+     "items": 2
+    },
+    {
+     "id": "interactive",
+     "title": "Time to Interactive",
+     "score": 0.39,
+     "savingsMs": null,
+     "items": null
+    },
+    {
+     "id": "mainthread-work-breakdown",
+     "title": "Minimize main-thread work",
+     "score": 0,
+     "savingsMs": null,
+     "items": 7
+    },
+    {
+     "id": "bootup-time",
+     "title": "Reduce JavaScript execution time",
+     "score": 0,
+     "savingsMs": null,
+     "items": 8
+    },
+    {
+     "id": "uses-rel-preconnect",
+     "title": "Preconnect to required origins",
+     "score": 0,
+     "savingsMs": 350,
+     "items": 7
+    },
+    {
+     "id": "third-party-summary",
+     "title": "Reduce the impact of third-party code",
+     "score": 0,
+     "savingsMs": null,
+     "items": 6
+    },
+    {
+     "id": "largest-contentful-paint-element",
+     "title": "Largest Contentful Paint element",
+     "score": 0,
+     "savingsMs": 5250,
+     "items": 2
+    },
+    {
+     "id": "unsized-images",
+     "title": "Image elements do not have explicit `width` and `height`",
+     "score": 0.5,
+     "savingsMs": null,
+     "items": 21
+    },
+    {
+     "id": "prioritize-lcp-image",
+     "title": "Preload Largest Contentful Paint image",
+     "score": 0,
+     "savingsMs": 1600,
+     "items": 1
+    },
+    {
+     "id": "aria-allowed-attr",
+     "title": "`[aria-*]` attributes do not match their roles",
+     "score": 0,
+     "savingsMs": null,
+     "items": 3
+    },
+    {
+     "id": "button-name",
+     "title": "Buttons do not have an accessible name",
+     "score": 0,
+     "savingsMs": null,
+     "items": 1
+    },
+    {
+     "id": "uses-long-cache-ttl",
+     "title": "Serve static assets with an efficient cache policy",
+     "score": 0.5,
+     "savingsMs": null,
+     "items": 3
+    },
+    {
+     "id": "offscreen-images",
+     "title": "Defer offscreen images",
+     "score": 0,
+     "savingsMs": 250,
+     "items": 1
+    },
+    {
+     "id": "render-blocking-resources",
+     "title": "Eliminate render-blocking resources",
+     "score": 0.5,
+     "savingsMs": 0,
+     "items": 1
+    },
+    {
+     "id": "unused-css-rules",
+     "title": "Reduce unused CSS",
+     "score": 0.5,
+     "savingsMs": 0,
+     "items": 1
+    },
+    {
+     "id": "unused-javascript",
+     "title": "Reduce unused JavaScript",
+     "score": 0,
+     "savingsMs": 1100,
+     "items": 4
+    },
+    {
+     "id": "modern-image-formats",
+     "title": "Serve images in next-gen formats",
+     "score": 0,
+     "savingsMs": 150,
+     "items": 1
+    },
+    {
+     "id": "uses-text-compression",
+     "title": "Enable text compression",
+     "score": 0.5,
+     "savingsMs": 0,
+     "items": 2
+    },
+    {
+     "id": "legacy-javascript",
+     "title": "Avoid serving legacy JavaScript to modern browsers",
+     "score": 0.5,
+     "savingsMs": 0,
+     "items": 8
+    },
+    {
+     "id": "inspector-issues",
+     "title": "Issues were logged in the `Issues` panel in Chrome Devtools",
+     "score": 0,
+     "savingsMs": null,
+     "items": 1
+    },
+    {
+     "id": "link-text",
+     "title": "Links do not have descriptive text",
+     "score": 0,
+     "savingsMs": null,
+     "items": 1
+    },
+    {
+     "id": "cache-insight",
+     "title": "Use efficient cache lifetimes",
+     "score": 0,
+     "savingsMs": 850,
+     "items": 3
+    },
+    {
+     "id": "forced-reflow-insight",
+     "title": "Forced reflow",
+     "score": 0,
+     "savingsMs": null,
+     "items": 2
+    },
+    {
+     "id": "image-delivery-insight",
+     "title": "Improve image delivery",
+     "score": 0.5,
+     "savingsMs": 0,
+     "items": 5
+    },
+    {
+     "id": "lcp-discovery-insight",
+     "title": "LCP request discovery",
+     "score": 0,
+     "savingsMs": 0,
+     "items": 2
+    },
+    {
+     "id": "legacy-javascript-insight",
+     "title": "Legacy JavaScript",
+     "score": 0,
+     "savingsMs": 150,
+     "items": 5
+    },
+    {
+     "id": "network-dependency-tree-insight",
+     "title": "Network dependency tree",
+     "score": 0,
+     "savingsMs": 0,
+     "items": 3
+    },
+    {
+     "id": "render-blocking-insight",
+     "title": "Render blocking requests",
+     "score": 0.5,
+     "savingsMs": 0,
+     "items": 13
+    }
+   ],
+   "warnings": []
+  }
+ ]
+}

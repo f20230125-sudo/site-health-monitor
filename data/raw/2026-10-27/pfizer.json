@@ -1,0 +1,85 @@
+{
+ "page": {
+  "id": "pfizer",
+  "company": "Pfizer",
+  "group": "Peer",
+  "page": "Home",
+  "url": "https://www.pfizer.com/"
+ },
+ "audited": "2026-10-27",
+ "device": "mobile",
+ "runs": [
+  {
+   "finalUrl": "https://www.pfizer.com/",
+   "status": "blocked",
+   "error": "Something went wrong with recording the trace over your page load. Please run Lighthouse again. (NO_NAVSTART)",
+   "scores": {
+    "performance": null,
+    "accessibility": 0.93,
+    "best-practices": null,
+    "seo": 0.4
+   },
+   "metrics": {
+    "largest-contentful-paint": null,
+    "cumulative-layout-shift": null,
+    "total-blocking-time": null,
+    "first-contentful-paint": null,
+    "speed-index": null,
+    "total-byte-weight": 959019,
+    "server-response-time": 18.792
+   },
+   "failing": [
+    {
+     "id": "errors-in-console",
+     "title": "Browser errors were logged to the console",
+     "score": 0,
+     "savingsMs": null,
+     "items": 3
+    },
+    {
+     "id": "meta-refresh",
+     "title": "The document uses `<meta http-equiv=\"refresh\">`",
+     "score": 0,
+     "savingsMs": null,
+     "items": 1
+    },
+    {
+     "id": "uses-long-cache-ttl",
+     "title": "Serve static assets with an efficient cache policy",
+     "score": 0.5,
+     "savingsMs": null,
+     "items": 1
+    },
+    {
+     "id": "meta-description",
+     "title": "Document does not have a meta description",
+     "score": 0,
+     "savingsMs": null,
+     "items": null
+    },
+    {
+     "id": "http-status-code",
+     "title": "Page has unsuccessful HTTP status code",
+     "score": 0,
+     "savingsMs": null,
+     "items": null
+    },
+    {
+     "id": "is-crawlable",
+     "title": "Page is blocked from indexing",
+     "score": 0,
+     "savingsMs": null,
+     "items": 1
+    },
+    {
+     "id": "bf-cache",
+     "title": "Page prevented back/forward cache restoration",
+     "score": 0,
+     "savingsMs": null,
+     "items": 2
+    }
+   ],
+   "warnings": []
+  }
+ ]
+}
