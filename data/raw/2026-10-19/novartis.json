@@ -1,0 +1,253 @@
+{
+ "page": {
+  "id": "novartis",
+  "company": "Novartis",
+  "group": "Peer",
+  "page": "Home",
+  "url": "https://www.novartis.com/"
+ },
+ "audited": "2026-10-19",
+ "device": "mobile",
+ "runs": [
+  {
+   "finalUrl": "https://www.novartis.com/",
+   "status": "ok",
+   "error": null,
+   "scores": {
+    "performance": 0.19,
+    "accessibility": 0.97,
+    "best-practices": 0.96,
+    "seo": 0.92
+   },
+   "metrics": {
+    "largest-contentful-paint": 6869.579999999999,
+    "cumulative-layout-shift": 0.3835434386391252,
+    "total-blocking-time": 6115.972249999997,
+    "first-contentful-paint": 2909.6375,
+    "speed-index": 5447.373827369225,
+    "total-byte-weight": 4085966,
+    "server-response-time": 21.623999999999967
+   },
+   "failing": [
+    {
+     "id": "max-potential-fid",
+     "title": "Max Potential First Input Delay",
+     "score": 0,
+     "savingsMs": null,
+     "items": null
+    },
+    {
+     "id": "interactive",
+     "title": "Time to Interactive",
+     "score": 0.04,
+     "savingsMs": null,
+     "items": null
+    },
+    {
+     "id": "mainthread-work-breakdown",
+     "title": "Minimize main-thread work",
+     "score": 0,
+     "savingsMs": null,
+     "items": 7
+    },
+    {
+     "id": "bootup-time",
+     "title": "Reduce JavaScript execution time",
+     "score": 0,
+     "savingsMs": null,
+     "items": 12
+    },
+    {
+     "id": "third-party-summary",
+     "title": "Reduce the impact of third-party code",
+     "score": 0,
+     "savingsMs": null,
+     "items": 8
+    },
+    {
+     "id": "largest-contentful-paint-element",
+     "title": "Largest Contentful Paint element",
+     "score": 0,
+     "savingsMs": 4350,
+     "items": 2
+    },
+    {
+     "id": "lcp-lazy-loaded",
+     "title": "Largest Contentful Paint image was lazily loaded",
+     "score": 0,
+     "savingsMs": 1050,
+     "items": 1
+    },
+    {
+     "id": "layout-shifts",
+     "title": "Avoid large layout shifts",
+     "score": 0,
+     "savingsMs": null,
+     "items": 6
+    },
+    {
+     "id": "unsized-images",
+     "title": "Image elements do not have explicit `width` and `height`",
+     "score": 0.5,
+     "savingsMs": null,
+     "items": 3
+    },
+    {
+     "id": "target-size",
+     "title": "Touch targets do not have sufficient size or spacing.",
+     "score": 0,
+     "savingsMs": null,
+     "items": 8
+    },
+    {
+     "id": "uses-long-cache-ttl",
+     "title": "Serve static assets with an efficient cache policy",
+     "score": 0.5,
+     "savingsMs": null,
+     "items": 39
+    },
+    {
+     "id": "offscreen-images",
+     "title": "Defer offscreen images",
+     "score": 0.5,
+     "savingsMs": 0,
+     "items": 2
+    },
+    {
+     "id": "render-blocking-resources",
+     "title": "Eliminate render-blocking resources",
+     "score": 0,
+     "savingsMs": 0,
+     "items": 3
+    },
+    {
+     "id": "unused-css-rules",
+     "title": "Reduce unused CSS",
+     "score": 0,
+     "savingsMs": 750,
+     "items": 4
+    },
+    {
+     "id": "unused-javascript",
+     "title": "Reduce unused JavaScript",
+     "score": 0,
+     "savingsMs": 500,
+     "items": 7
+    },
+    {
+     "id": "modern-image-formats",
+     "title": "Serve images in next-gen formats",
+     "score": 0.5,
+     "savingsMs": 0,
+     "items": 9
+    },
+    {
+     "id": "uses-optimized-images",
+     "title": "Efficiently encode images",
+     "score": 0.5,
+     "savingsMs": 0,
+     "items": 9
+    },
+    {
+     "id": "uses-responsive-images",
+     "title": "Properly size images",
+     "score": 0,
+     "savingsMs": 300,
+     "items": 1
+    },
+    {
+     "id": "legacy-javascript",
+     "title": "Avoid serving legacy JavaScript to modern browsers",
+     "score": 0.5,
+     "savingsMs": 0,
+     "items": 8
+    },
+    {
+     "id": "dom-size",
+     "title": "Avoid an excessive DOM size",
+     "score": 0,
+     "savingsMs": null,
+     "items": 3
+    },
+    {
+     "id": "inspector-issues",
+     "title": "Issues were logged in the `Issues` panel in Chrome Devtools",
+     "score": 0,
+     "savingsMs": null,
+     "items": 1
+    },
+    {
+     "id": "uses-passive-event-listeners",
+     "title": "Does not use passive listeners to improve scrolling performance",
+     "score": 0.5,
+     "savingsMs": null,
+     "items": 1
+    },
+    {
+     "id": "link-text",
+     "title": "Links do not have descriptive text",
+     "score": 0,
+     "savingsMs": null,
+     "items": 1
+    },
+    {
+     "id": "cache-insight",
+     "title": "Use efficient cache lifetimes",
+     "score": 0,
+     "savingsMs": 150,
+     "items": 39
+    },
+    {
+     "id": "cls-culprits-insight",
+     "title": "Layout shift culprits",
+     "score": 0,
+     "savingsMs": null,
+     "items": 2
+    },
+    {
+     "id": "forced-reflow-insight",
+     "title": "Forced reflow",
+     "score": 0,
+     "savingsMs": null,
+     "items": 2
+    },
+    {
+     "id": "image-delivery-insight",
+     "title": "Improve image delivery",
+     "score": 0,
+     "savingsMs": 350,
+     "items": 9
+    },
+    {
+     "id": "lcp-discovery-insight",
+     "title": "LCP request discovery",
+     "score": 0,
+     "savingsMs": 0,
+     "items": 2
+    },
+    {
+     "id": "legacy-javascript-insight",
+     "title": "Legacy JavaScript",
+     "score": 0.5,
+     "savingsMs": 0,
+     "items": 2
+    },
+    {
+     "id": "network-dependency-tree-insight",
+     "title": "Network dependency tree",
+     "score": 0,
+     "savingsMs": 0,
+     "items": 3
+    },
+    {
+     "id": "render-blocking-insight",
+     "title": "Render blocking requests",
+     "score": 0,
+     "savingsMs": 0,
+     "items": 9
+    }
+   ],
+   "warnings": []
+  }
+ ]
+}

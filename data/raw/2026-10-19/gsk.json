@@ -1,0 +1,246 @@
+{
+ "page": {
+  "id": "gsk",
+  "company": "GSK",
+  "group": "Peer",
+  "page": "Home",
+  "url": "https://www.gsk.com/en-gb/"
+ },
+ "audited": "2026-10-19",
+ "device": "mobile",
+ "runs": [
+  {
+   "finalUrl": "https://www.gsk.com/en-gb/",
+   "status": "ok",
+   "error": null,
+   "scores": {
+    "performance": 0.34,
+    "accessibility": 0.89,
+    "best-practices": 0.96,
+    "seo": 0.92
+   },
+   "metrics": {
+    "largest-contentful-paint": 8199.7065,
+    "cumulative-layout-shift": 0,
+    "total-blocking-time": 5311.000000000001,
+    "first-contentful-paint": 2430.2065000000002,
+    "speed-index": 9105.822756299938,
+    "total-byte-weight": 36003155,
+    "server-response-time": 794.529
+   },
+   "failing": [
+    {
+     "id": "max-potential-fid",
+     "title": "Max Potential First Input Delay",
+     "score": 0,
+     "savingsMs": null,
+     "items": null
+    },
+    {
+     "id": "interactive",
+     "title": "Time to Interactive",
+     "score": 0.07,
+     "savingsMs": null,
+     "items": null
+    },
+    {
+     "id": "image-size-responsive",
+     "title": "Serves images with low resolution",
+     "score": 0,
+     "savingsMs": null,
+     "items": 1
+    },
+    {
+     "id": "mainthread-work-breakdown",
+     "title": "Minimize main-thread work",
+     "score": 0,
+     "savingsMs": null,
+     "items": 7
+    },
+    {
+     "id": "bootup-time",
+     "title": "Reduce JavaScript execution time",
+     "score": 0,
+     "savingsMs": null,
+     "items": 11
+    },
+    {
+     "id": "font-display",
+     "title": "Ensure text remains visible during webfont load",
+     "score": 0.5,
+     "savingsMs": null,
+     "items": 4
+    },
+    {
+     "id": "third-party-summary",
+     "title": "Reduce the impact of third-party code",
+     "score": 0,
+     "savingsMs": null,
+     "items": 3
+    },
+    {
+     "id": "largest-contentful-paint-element",
+     "title": "Largest Contentful Paint element",
+     "score": 0,
+     "savingsMs": 5700,
+     "items": 2
+    },
+    {
+     "id": "label",
+     "title": "Form elements do not have associated labels",
+     "score": 0,
+     "savingsMs": null,
+     "items": 2
+    },
+    {
+     "id": "link-name",
+     "title": "Links do not have a discernible name",
+     "score": 0,
+     "savingsMs": null,
+     "items": 1
+    },
+    {
+     "id": "tabindex",
+     "title": "Some elements have a `[tabindex]` value greater than 0",
+     "score": 0,
+     "savingsMs": null,
+     "items": 13
+    },
+    {
+     "id": "uses-long-cache-ttl",
+     "title": "Serve static assets with an efficient cache policy",
+     "score": 0.5,
+     "savingsMs": null,
+     "items": 9
+    },
+    {
+     "id": "offscreen-images",
+     "title": "Defer offscreen images",
+     "score": 0.5,
+     "savingsMs": 0,
+     "items": 1
+    },
+    {
+     "id": "render-blocking-resources",
+     "title": "Eliminate render-blocking resources",
+     "score": 0.5,
+     "savingsMs": 0,
+     "items": 1
+    },
+    {
+     "id": "unused-css-rules",
+     "title": "Reduce unused CSS",
+     "score": 0.5,
+     "savingsMs": 0,
+     "items": 2
+    },
+    {
+     "id": "unused-javascript",
+     "title": "Reduce unused JavaScript",
+     "score": 0,
+     "savingsMs": 150,
+     "items": 5
+    },
+    {
+     "id": "efficient-animated-content",
+     "title": "Use video formats for animated content",
+     "score": 0,
+     "savingsMs": 1050,
+     "items": 1
+    },
+    {
+     "id": "legacy-javascript",
+     "title": "Avoid serving legacy JavaScript to modern browsers",
+     "score": 0.5,
+     "savingsMs": 0,
+     "items": 5
+    },
+    {
+     "id": "dom-size",
+     "title": "Avoid an excessive DOM size",
+     "score": 0,
+     "savingsMs": null,
+     "items": 3
+    },
+    {
+     "id": "link-text",
+     "title": "Links do not have descriptive text",
+     "score": 0,
+     "savingsMs": null,
+     "items": 2
+    },
+    {
+     "id": "bf-cache",
+     "title": "Page prevented back/forward cache restoration",
+     "score": 0,
+     "savingsMs": null,
+     "items": 1
+    },
+    {
+     "id": "cache-insight",
+     "title": "Use efficient cache lifetimes",
+     "score": 0.5,
+     "savingsMs": 0,
+     "items": 9
+    },
+    {
+     "id": "document-latency-insight",
+     "title": "Document request latency",
+     "score": 0,
+     "savingsMs": 700,
+     "items": null
+    },
+    {
+     "id": "font-display-insight",
+     "title": "Font display",
+     "score": 0.5,
+     "savingsMs": 0,
+     "items": 1
+    },
+    {
+     "id": "forced-reflow-insight",
+     "title": "Forced reflow",
+     "score": 0,
+     "savingsMs": null,
+     "items": 2
+    },
+    {
+     "id": "image-delivery-insight",
+     "title": "Improve image delivery",
+     "score": 0,
+     "savingsMs": 1050,
+     "items": 7
+    },
+    {
+     "id": "lcp-discovery-insight",
+     "title": "LCP request discovery",
+     "score": 0,
+     "savingsMs": 0,
+     "items": 2
+    },
+    {
+     "id": "legacy-javascript-insight",
+     "title": "Legacy JavaScript",
+     "score": 0.5,
+     "savingsMs": 0,
+     "items": 1
+    },
+    {
+     "id": "network-dependency-tree-insight",
+     "title": "Network dependency tree",
+     "score": 0,
+     "savingsMs": 0,
+     "items": 3
+    },
+    {
+     "id": "render-blocking-insight",
+     "title": "Render blocking requests",
+     "score": 0.5,
+     "savingsMs": 0,
+     "items": 10
+    }
+   ],
+   "warnings": []
+  }
+ ]
+}

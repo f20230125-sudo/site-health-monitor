@@ -1,0 +1,239 @@
+{
+ "page": {
+  "id": "astrazeneca",
+  "company": "AstraZeneca",
+  "group": "Peer",
+  "page": "Home",
+  "url": "https://www.astrazeneca.com/"
+ },
+ "audited": "2026-10-19",
+ "device": "mobile",
+ "runs": [
+  {
+   "finalUrl": "https://www.astrazeneca.com/",
+   "status": "ok",
+   "error": null,
+   "scores": {
+    "performance": 0.38,
+    "accessibility": 1,
+    "best-practices": 1,
+    "seo": 1
+   },
+   "metrics": {
+    "largest-contentful-paint": 8923.446000000002,
+    "cumulative-layout-shift": 0.02763405043929907,
+    "total-blocking-time": 983.6295,
+    "first-contentful-paint": 3884.9065,
+    "speed-index": 8290.598642268167,
+    "total-byte-weight": 1721742,
+    "server-response-time": 646.691
+   },
+   "failing": [
+    {
+     "id": "max-potential-fid",
+     "title": "Max Potential First Input Delay",
+     "score": 0,
+     "savingsMs": null,
+     "items": null
+    },
+    {
+     "id": "interactive",
+     "title": "Time to Interactive",
+     "score": 0.33,
+     "savingsMs": null,
+     "items": null
+    },
+    {
+     "id": "mainthread-work-breakdown",
+     "title": "Minimize main-thread work",
+     "score": 0,
+     "savingsMs": null,
+     "items": 7
+    },
+    {
+     "id": "bootup-time",
+     "title": "Reduce JavaScript execution time",
+     "score": 0,
+     "savingsMs": null,
+     "items": 9
+    },
+    {
+     "id": "font-display",
+     "title": "Ensure text remains visible during webfont load",
+     "score": 0.5,
+     "savingsMs": null,
+     "items": 8
+    },
+    {
+     "id": "third-party-summary",
+     "title": "Reduce the impact of third-party code",
+     "score": 0,
+     "savingsMs": null,
+     "items": 6
+    },
+    {
+     "id": "largest-contentful-paint-element",
+     "title": "Largest Contentful Paint element",
+     "score": 0,
+     "savingsMs": 6400,
+     "items": 2
+    },
+    {
+     "id": "unsized-images",
+     "title": "Image elements do not have explicit `width` and `height`",
+     "score": 0.5,
+     "savingsMs": null,
+     "items": 7
+    },
+    {
+     "id": "valid-source-maps",
+     "title": "Missing source maps for large first-party JavaScript",
+     "score": 0,
+     "savingsMs": null,
+     "items": 2
+    },
+    {
+     "id": "prioritize-lcp-image",
+     "title": "Preload Largest Contentful Paint image",
+     "score": 0.5,
+     "savingsMs": 0,
+     "items": 1
+    },
+    {
+     "id": "uses-long-cache-ttl",
+     "title": "Serve static assets with an efficient cache policy",
+     "score": 0.5,
+     "savingsMs": null,
+     "items": 31
+    },
+    {
+     "id": "offscreen-images",
+     "title": "Defer offscreen images",
+     "score": 0.5,
+     "savingsMs": 0,
+     "items": 1
+    },
+    {
+     "id": "render-blocking-resources",
+     "title": "Eliminate render-blocking resources",
+     "score": 0,
+     "savingsMs": 0,
+     "items": 8
+    },
+    {
+     "id": "unused-css-rules",
+     "title": "Reduce unused CSS",
+     "score": 0,
+     "savingsMs": 750,
+     "items": 1
+    },
+    {
+     "id": "unused-javascript",
+     "title": "Reduce unused JavaScript",
+     "score": 0,
+     "savingsMs": 1700,
+     "items": 2
+    },
+    {
+     "id": "modern-image-formats",
+     "title": "Serve images in next-gen formats",
+     "score": 0.5,
+     "savingsMs": 0,
+     "items": 6
+    },
+    {
+     "id": "uses-optimized-images",
+     "title": "Efficiently encode images",
+     "score": 0.5,
+     "savingsMs": 0,
+     "items": 2
+    },
+    {
+     "id": "uses-responsive-images",
+     "title": "Properly size images",
+     "score": 0.5,
+     "savingsMs": 0,
+     "items": 2
+    },
+    {
+     "id": "legacy-javascript",
+     "title": "Avoid serving legacy JavaScript to modern browsers",
+     "score": 0.5,
+     "savingsMs": 0,
+     "items": 2
+    },
+    {
+     "id": "dom-size",
+     "title": "Avoid an excessive DOM size",
+     "score": 0,
+     "savingsMs": null,
+     "items": 3
+    },
+    {
+     "id": "cache-insight",
+     "title": "Use efficient cache lifetimes",
+     "score": 0,
+     "savingsMs": 1500,
+     "items": 31
+    },
+    {
+     "id": "document-latency-insight",
+     "title": "Document request latency",
+     "score": 0,
+     "savingsMs": 550,
+     "items": null
+    },
+    {
+     "id": "font-display-insight",
+     "title": "Font display",
+     "score": 0,
+     "savingsMs": 200,
+     "items": 8
+    },
+    {
+     "id": "forced-reflow-insight",
+     "title": "Forced reflow",
+     "score": 0,
+     "savingsMs": null,
+     "items": 2
+    },
+    {
+     "id": "image-delivery-insight",
+     "title": "Improve image delivery",
+     "score": 0.5,
+     "savingsMs": 0,
+     "items": 8
+    },
+    {
+     "id": "lcp-discovery-insight",
+     "title": "LCP request discovery",
+     "score": 0,
+     "savingsMs": 0,
+     "items": 2
+    },
+    {
+     "id": "legacy-javascript-insight",
+     "title": "Legacy JavaScript",
+     "score": 0.5,
+     "savingsMs": 0,
+     "items": 2
+    },
+    {
+     "id": "network-dependency-tree-insight",
+     "title": "Network dependency tree",
+     "score": 0,
+     "savingsMs": 0,
+     "items": 3
+    },
+    {
+     "id": "render-blocking-insight",
+     "title": "Render blocking requests",
+     "score": 0,
+     "savingsMs": 0,
+     "items": 8
+    }
+   ],
+   "warnings": []
+  }
+ ]
+}
