@@ -1,0 +1,281 @@
+{
+ "page": {
+  "id": "pfizer",
+  "company": "Pfizer",
+  "group": "Peer",
+  "page": "Home",
+  "url": "https://www.pfizer.com/"
+ },
+ "audited": "2026-10-19",
+ "device": "mobile",
+ "runs": [
+  {
+   "finalUrl": "https://www.pfizer.com/",
+   "status": "ok",
+   "error": null,
+   "scores": {
+    "performance": 0.32,
+    "accessibility": 0.98,
+    "best-practices": 0.57,
+    "seo": 0.92
+   },
+   "metrics": {
+    "largest-contentful-paint": 10506.48918,
+    "cumulative-layout-shift": 0,
+    "total-blocking-time": 6130.000000000002,
+    "first-contentful-paint": 2866.8048699999995,
+    "speed-index": 8356.563215526956,
+    "total-byte-weight": 2249096,
+    "server-response-time": 233.71900000000005
+   },
+   "failing": [
+    {
+     "id": "max-potential-fid",
+     "title": "Max Potential First Input Delay",
+     "score": 0,
+     "savingsMs": null,
+     "items": null
+    },
+    {
+     "id": "errors-in-console",
+     "title": "Browser errors were logged to the console",
+     "score": 0,
+     "savingsMs": null,
+     "items": 11
+    },
+    {
+     "id": "interactive",
+     "title": "Time to Interactive",
+     "score": 0.04,
+     "savingsMs": null,
+     "items": null
+    },
+    {
+     "id": "deprecations",
+     "title": "Uses deprecated APIs",
+     "score": 0,
+     "savingsMs": null,
+     "items": 3
+    },
+    {
+     "id": "third-party-cookies",
+     "title": "Uses third-party cookies",
+     "score": 0,
+     "savingsMs": null,
+     "items": 6
+    },
+    {
+     "id": "mainthread-work-breakdown",
+     "title": "Minimize main-thread work",
+     "score": 0,
+     "savingsMs": null,
+     "items": 7
+    },
+    {
+     "id": "bootup-time",
+     "title": "Reduce JavaScript execution time",
+     "score": 0,
+     "savingsMs": null,
+     "items": 16
+    },
+    {
+     "id": "font-display",
+     "title": "Ensure text remains visible during webfont load",
+     "score": 0.5,
+     "savingsMs": null,
+     "items": 5
+    },
+    {
+     "id": "third-party-summary",
+     "title": "Reduce the impact of third-party code",
+     "score": 0,
+     "savingsMs": null,
+     "items": 13
+    },
+    {
+     "id": "largest-contentful-paint-element",
+     "title": "Largest Contentful Paint element",
+     "score": 0,
+     "savingsMs": 8000,
+     "items": 2
+    },
+    {
+     "id": "unsized-images",
+     "title": "Image elements do not have explicit `width` and `height`",
+     "score": 0.5,
+     "savingsMs": null,
+     "items": 7
+    },
+    {
+     "id": "valid-source-maps",
+     "title": "Missing source maps for large first-party JavaScript",
+     "score": 0,
+     "savingsMs": null,
+     "items": 1
+    },
+    {
+     "id": "heading-order",
+     "title": "Heading elements are not in a sequentially-descending order",
+     "score": 0,
+     "savingsMs": null,
+     "items": 3
+    },
+    {
+     "id": "label-content-name-mismatch",
+     "title": "Elements with visible text labels do not have matching accessible names.",
+     "score": 0,
+     "savingsMs": null,
+     "items": 3
+    },
+    {
+     "id": "uses-long-cache-ttl",
+     "title": "Serve static assets with an efficient cache policy",
+     "score": 0.5,
+     "savingsMs": null,
+     "items": 20
+    },
+    {
+     "id": "offscreen-images",
+     "title": "Defer offscreen images",
+     "score": 0.5,
+     "savingsMs": 0,
+     "items": 2
+    },
+    {
+     "id": "render-blocking-resources",
+     "title": "Eliminate render-blocking resources",
+     "score": 0,
+     "savingsMs": 0,
+     "items": 1
+    },
+    {
+     "id": "unused-css-rules",
+     "title": "Reduce unused CSS",
+     "score": 0,
+     "savingsMs": 0,
+     "items": 2
+    },
+    {
+     "id": "unused-javascript",
+     "title": "Reduce unused JavaScript",
+     "score": 0,
+     "savingsMs": 950,
+     "items": 7
+    },
+    {
+     "id": "modern-image-formats",
+     "title": "Serve images in next-gen formats",
+     "score": 0.5,
+     "savingsMs": 0,
+     "items": 1
+    },
+    {
+     "id": "uses-responsive-images",
+     "title": "Properly size images",
+     "score": 0,
+     "savingsMs": 100,
+     "items": 3
+    },
+    {
+     "id": "efficient-animated-content",
+     "title": "Use video formats for animated content",
+     "score": 0.5,
+     "savingsMs": 0,
+     "items": 1
+    },
+    {
+     "id": "legacy-javascript",
+     "title": "Avoid serving legacy JavaScript to modern browsers",
+     "score": 0,
+     "savingsMs": 300,
+     "items": 7
+    },
+    {
+     "id": "dom-size",
+     "title": "Avoid an excessive DOM size",
+     "score": 0,
+     "savingsMs": null,
+     "items": 3
+    },
+    {
+     "id": "inspector-issues",
+     "title": "Issues were logged in the `Issues` panel in Chrome Devtools",
+     "score": 0,
+     "savingsMs": null,
+     "items": 2
+    },
+    {
+     "id": "uses-passive-event-listeners",
+     "title": "Does not use passive listeners to improve scrolling performance",
+     "score": 0.5,
+     "savingsMs": null,
+     "items": 2
+    },
+    {
+     "id": "meta-description",
+     "title": "Document does not have a meta description",
+     "score": 0,
+     "savingsMs": null,
+     "items": null
+    },
+    {
+     "id": "bf-cache",
+     "title": "Page prevented back/forward cache restoration",
+     "score": 0,
+     "savingsMs": null,
+     "items": 1
+    },
+    {
+     "id": "cache-insight",
+     "title": "Use efficient cache lifetimes",
+     "score": 0,
+     "savingsMs": 1950,
+     "items": 21
+    },
+    {
+     "id": "font-display-insight",
+     "title": "Font display",
+     "score": 0,
+     "savingsMs": 50,
+     "items": 5
+    },
+    {
+     "id": "forced-reflow-insight",
+     "title": "Forced reflow",
+     "score": 0,
+     "savingsMs": null,
+     "items": 2
+    },
+    {
+     "id": "image-delivery-insight",
+     "title": "Improve image delivery",
+     "score": 0,
+     "savingsMs": 750,
+     "items": 4
+    },
+    {
+     "id": "legacy-javascript-insight",
+     "title": "Legacy JavaScript",
+     "score": 0,
+     "savingsMs": 300,
+     "items": 4
+    },
+    {
+     "id": "network-dependency-tree-insight",
+     "title": "Network dependency tree",
+     "score": 0,
+     "savingsMs": 0,
+     "items": 3
+    },
+    {
+     "id": "render-blocking-insight",
+     "title": "Render blocking requests",
+     "score": 0,
+     "savingsMs": 0,
+     "items": 3
+    }
+   ],
+   "warnings": []
+  }
+ ]
+}

@@ -1,0 +1,260 @@
+{
+ "page": {
+  "id": "novonordisk",
+  "company": "Novo Nordisk",
+  "group": "Peer",
+  "page": "Home",
+  "url": "https://www.novonordisk.com/"
+ },
+ "audited": "2026-10-19",
+ "device": "mobile",
+ "runs": [
+  {
+   "finalUrl": "https://www.novonordisk.com/",
+   "status": "ok",
+   "error": null,
+   "scores": {
+    "performance": 0.29,
+    "accessibility": 0.9,
+    "best-practices": 0.82,
+    "seo": 0.85
+   },
+   "metrics": {
+    "largest-contentful-paint": 20290.256999999998,
+    "cumulative-layout-shift": 0.0003038777945702112,
+    "total-blocking-time": 6082.000000000002,
+    "first-contentful-paint": 4068.6804999999995,
+    "speed-index": 8269.944538927519,
+    "total-byte-weight": 3785998,
+    "server-response-time": 14.91700000000003
+   },
+   "failing": [
+    {
+     "id": "max-potential-fid",
+     "title": "Max Potential First Input Delay",
+     "score": 0,
+     "savingsMs": null,
+     "items": null
+    },
+    {
+     "id": "interactive",
+     "title": "Time to Interactive",
+     "score": 0.02,
+     "savingsMs": null,
+     "items": null
+    },
+    {
+     "id": "deprecations",
+     "title": "Uses deprecated APIs",
+     "score": 0,
+     "savingsMs": null,
+     "items": 1
+    },
+    {
+     "id": "mainthread-work-breakdown",
+     "title": "Minimize main-thread work",
+     "score": 0,
+     "savingsMs": null,
+     "items": 7
+    },
+    {
+     "id": "bootup-time",
+     "title": "Reduce JavaScript execution time",
+     "score": 0,
+     "savingsMs": null,
+     "items": 17
+    },
+    {
+     "id": "uses-rel-preconnect",
+     "title": "Preconnect to required origins",
+     "score": 0,
+     "savingsMs": 550,
+     "items": 4
+    },
+    {
+     "id": "third-party-summary",
+     "title": "Reduce the impact of third-party code",
+     "score": 0,
+     "savingsMs": null,
+     "items": 3
+    },
+    {
+     "id": "largest-contentful-paint-element",
+     "title": "Largest Contentful Paint element",
+     "score": 0,
+     "savingsMs": 17800,
+     "items": 2
+    },
+    {
+     "id": "unsized-images",
+     "title": "Image elements do not have explicit `width` and `height`",
+     "score": 0.5,
+     "savingsMs": null,
+     "items": 2
+    },
+    {
+     "id": "valid-source-maps",
+     "title": "Missing source maps for large first-party JavaScript",
+     "score": 0,
+     "savingsMs": null,
+     "items": 1
+    },
+    {
+     "id": "color-contrast",
+     "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+     "score": 0,
+     "savingsMs": null,
+     "items": 1
+    },
+    {
+     "id": "link-in-text-block",
+     "title": "Links rely on color to be distinguishable.",
+     "score": 0,
+     "savingsMs": null,
+     "items": 1
+    },
+    {
+     "id": "target-size",
+     "title": "Touch targets do not have sufficient size or spacing.",
+     "score": 0,
+     "savingsMs": null,
+     "items": 14
+    },
+    {
+     "id": "uses-long-cache-ttl",
+     "title": "Serve static assets with an efficient cache policy",
+     "score": 0.5,
+     "savingsMs": null,
+     "items": 52
+    },
+    {
+     "id": "render-blocking-resources",
+     "title": "Eliminate render-blocking resources",
+     "score": 0,
+     "savingsMs": 2950,
+     "items": 17
+    },
+    {
+     "id": "unused-css-rules",
+     "title": "Reduce unused CSS",
+     "score": 0,
+     "savingsMs": 200,
+     "items": 3
+    },
+    {
+     "id": "unused-javascript",
+     "title": "Reduce unused JavaScript",
+     "score": 0,
+     "savingsMs": 2150,
+     "items": 5
+    },
+    {
+     "id": "modern-image-formats",
+     "title": "Serve images in next-gen formats",
+     "score": 0,
+     "savingsMs": 1400,
+     "items": 4
+    },
+    {
+     "id": "uses-optimized-images",
+     "title": "Efficiently encode images",
+     "score": 0,
+     "savingsMs": 450,
+     "items": 2
+    },
+    {
+     "id": "legacy-javascript",
+     "title": "Avoid serving legacy JavaScript to modern browsers",
+     "score": 0.5,
+     "savingsMs": 0,
+     "items": 4
+    },
+    {
+     "id": "dom-size",
+     "title": "Avoid an excessive DOM size",
+     "score": 0,
+     "savingsMs": null,
+     "items": 3
+    },
+    {
+     "id": "uses-http2",
+     "title": "Use HTTP/2",
+     "score": 0,
+     "savingsMs": 1750,
+     "items": 55
+    },
+    {
+     "id": "link-text",
+     "title": "Links do not have descriptive text",
+     "score": 0,
+     "savingsMs": null,
+     "items": 3
+    },
+    {
+     "id": "crawlable-anchors",
+     "title": "Links are not crawlable",
+     "score": 0,
+     "savingsMs": null,
+     "items": 10
+    },
+    {
+     "id": "cache-insight",
+     "title": "Use efficient cache lifetimes",
+     "score": 0,
+     "savingsMs": 3100,
+     "items": 51
+    },
+    {
+     "id": "font-display-insight",
+     "title": "Font display",
+     "score": 0,
+     "savingsMs": 400,
+     "items": 1
+    },
+    {
+     "id": "forced-reflow-insight",
+     "title": "Forced reflow",
+     "score": 0,
+     "savingsMs": null,
+     "items": 2
+    },
+    {
+     "id": "image-delivery-insight",
+     "title": "Improve image delivery",
+     "score": 0.5,
+     "savingsMs": 0,
+     "items": 1
+    },
+    {
+     "id": "legacy-javascript-insight",
+     "title": "Legacy JavaScript",
+     "score": 0.5,
+     "savingsMs": 0,
+     "items": 3
+    },
+    {
+     "id": "modern-http-insight",
+     "title": "Modern HTTP",
+     "score": 0,
+     "savingsMs": 0,
+     "items": 51
+    },
+    {
+     "id": "network-dependency-tree-insight",
+     "title": "Network dependency tree",
+     "score": 0,
+     "savingsMs": 0,
+     "items": 3
+    },
+    {
+     "id": "render-blocking-insight",
+     "title": "Render blocking requests",
+     "score": 0,
+     "savingsMs": 3100,
+     "items": 20
+    }
+   ],
+   "warnings": []
+  }
+ ]
+}

@@ -1,0 +1,43 @@
+name: Weekly site health audit
+
+# Every Tuesday: audit each page in audit/pages.json with Lighthouse (mobile, one run each), rebuild the report and the
+# fix backlog, append to data/history.csv and commit; Vercel redeploys the site from the commit. Runs on GitHub's
+# servers, so its numbers are measured from there, not from Dubai: compare a site with itself over time, not across
+# the two machines.
+on:
+  schedule:
+    - cron: "0 5 * * 2"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: npm ci
+      - run: pip install -r requirements.txt
+      - name: Audit
+        run: CHROME_PATH=$(which google-chrome) node audit/audit.mjs --runs 1
+      - name: Report and test
+        run: |
+          PYTHONPATH=src python -m shm.report
+          PYTHONPATH=src python -m pytest -q
+      - name: Commit the audit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data site/public excel
+          if ! git diff --cached --quiet; then
+            git commit -m "Weekly site health audit"
+            git push
+          fi

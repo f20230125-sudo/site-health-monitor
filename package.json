@@ -1,0 +1,8 @@
+{
+  "name": "site-health-audits",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "lighthouse": "^12.8.2"
+  }
+}
