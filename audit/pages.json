@@ -1,0 +1,14 @@
+[
+  { "id": "msd-home", "company": "MSD", "group": "MSD", "page": "Home", "url": "https://www.msd.com/" },
+  { "id": "msd-company", "company": "MSD", "group": "MSD", "page": "Company overview", "url": "https://www.msd.com/company-overview/" },
+  { "id": "msd-pipeline", "company": "MSD", "group": "MSD", "page": "Product pipeline", "url": "https://www.msd.com/research/product-pipeline/" },
+  { "id": "novartis", "company": "Novartis", "group": "Peer", "page": "Home", "url": "https://www.novartis.com/" },
+  { "id": "gsk", "company": "GSK", "group": "Peer", "page": "Home", "url": "https://www.gsk.com/en-gb/" },
+  { "id": "sanofi", "company": "Sanofi", "group": "Peer", "page": "Home", "url": "https://www.sanofi.com/en" },
+  { "id": "novonordisk", "company": "Novo Nordisk", "group": "Peer", "page": "Home", "url": "https://www.novonordisk.com/" },
+  { "id": "roche", "company": "Roche", "group": "Peer", "page": "Home", "url": "https://www.roche.com/" },
+  { "id": "bms", "company": "Bristol Myers Squibb", "group": "Peer", "page": "Home", "url": "https://www.bms.com/" },
+  { "id": "pfizer", "company": "Pfizer", "group": "Peer", "page": "Home", "url": "https://www.pfizer.com/" },
+  { "id": "astrazeneca", "company": "AstraZeneca", "group": "Peer", "page": "Home", "url": "https://www.astrazeneca.com/" },
+  { "id": "lilly", "company": "Lilly", "group": "Peer", "page": "Home", "url": "https://www.lilly.com/" }
+]

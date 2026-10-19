@@ -1,0 +1,27 @@
+export type Page = {
+  id: string;
+  company: string;
+  group: "MSD" | "Peer";
+  page: string;
+  url: string;
+  audited: string;
+  runs: number;
+  runsOk: number;
+  platform: string;
+  status: "ok" | "blocked";
+  error: string | null;
+  performance?: number;
+  accessibility?: number;
+  bestPractices?: number;
+  seo?: number;
+  lcpMs?: number;
+  cls?: number;
+  tbtMs?: number;
+  fcpMs?: number;
+  bytes?: number;
+  ttfbMs?: number;
+};
+export type GroupStats = { performance: number; accessibility: number; bestPractices: number; seo: number; lcpMs: number; tbtMs: number; cls: number; bytes: number; pages: number };
+export type Fix = { id: string; title: string; area: string; pages: number; ofPages: number; severity: number; priority: number; items: number; fix: string };
+export type Check = { id: string; check: string; status: "pass" | "warn" | "fail" | "info"; result: string; rule: string };
+export type Health = { audited: string; device: string; pages: Page[]; groups: Record<"MSD" | "Peer", GroupStats>; backlog: Fix[]; checks: Check[] };
