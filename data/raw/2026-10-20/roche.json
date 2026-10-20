@@ -1,0 +1,218 @@
+{
+ "page": {
+  "id": "roche",
+  "company": "Roche",
+  "group": "Peer",
+  "page": "Home",
+  "url": "https://www.roche.com/"
+ },
+ "audited": "2026-10-20",
+ "device": "mobile",
+ "runs": [
+  {
+   "finalUrl": "https://www.roche.com/",
+   "status": "ok",
+   "error": null,
+   "scores": {
+    "performance": 0.33,
+    "accessibility": 1,
+    "best-practices": 1,
+    "seo": 1
+   },
+   "metrics": {
+    "largest-contentful-paint": 12725.582999999999,
+    "cumulative-layout-shift": 0.1347424168317652,
+    "total-blocking-time": 1045,
+    "first-contentful-paint": 4537.425,
+    "speed-index": 6449.526063561643,
+    "total-byte-weight": 1979421,
+    "server-response-time": 429.237
+   },
+   "failing": [
+    {
+     "id": "max-potential-fid",
+     "title": "Max Potential First Input Delay",
+     "score": 0.24,
+     "savingsMs": null,
+     "items": null
+    },
+    {
+     "id": "interactive",
+     "title": "Time to Interactive",
+     "score": 0.13,
+     "savingsMs": null,
+     "items": null
+    },
+    {
+     "id": "mainthread-work-breakdown",
+     "title": "Minimize main-thread work",
+     "score": 0,
+     "savingsMs": null,
+     "items": 7
+    },
+    {
+     "id": "bootup-time",
+     "title": "Reduce JavaScript execution time",
+     "score": 0,
+     "savingsMs": null,
+     "items": 8
+    },
+    {
+     "id": "uses-rel-preconnect",
+     "title": "Preconnect to required origins",
+     "score": 0,
+     "savingsMs": 300,
+     "items": 3
+    },
+    {
+     "id": "third-party-summary",
+     "title": "Reduce the impact of third-party code",
+     "score": 0,
+     "savingsMs": null,
+     "items": 3
+    },
+    {
+     "id": "largest-contentful-paint-element",
+     "title": "Largest Contentful Paint element",
+     "score": 0,
+     "savingsMs": 10250,
+     "items": 2
+    },
+    {
+     "id": "lcp-lazy-loaded",
+     "title": "Largest Contentful Paint image was lazily loaded",
+     "score": 0,
+     "savingsMs": 1900,
+     "items": 1
+    },
+    {
+     "id": "layout-shifts",
+     "title": "Avoid large layout shifts",
+     "score": 0,
+     "savingsMs": null,
+     "items": 10
+    },
+    {
+     "id": "unsized-images",
+     "title": "Image elements do not have explicit `width` and `height`",
+     "score": 0.5,
+     "savingsMs": null,
+     "items": 1
+    },
+    {
+     "id": "prioritize-lcp-image",
+     "title": "Preload Largest Contentful Paint image",
+     "score": 0,
+     "savingsMs": 750,
+     "items": 1
+    },
+    {
+     "id": "uses-long-cache-ttl",
+     "title": "Serve static assets with an efficient cache policy",
+     "score": 0.5,
+     "savingsMs": null,
+     "items": 14
+    },
+    {
+     "id": "offscreen-images",
+     "title": "Defer offscreen images",
+     "score": 0.5,
+     "savingsMs": 0,
+     "items": 2
+    },
+    {
+     "id": "render-blocking-resources",
+     "title": "Eliminate render-blocking resources",
+     "score": 0,
+     "savingsMs": 0,
+     "items": 2
+    },
+    {
+     "id": "unused-css-rules",
+     "title": "Reduce unused CSS",
+     "score": 0.5,
+     "savingsMs": 0,
+     "items": 2
+    },
+    {
+     "id": "unused-javascript",
+     "title": "Reduce unused JavaScript",
+     "score": 0,
+     "savingsMs": 3750,
+     "items": 10
+    },
+    {
+     "id": "legacy-javascript",
+     "title": "Avoid serving legacy JavaScript to modern browsers",
+     "score": 0.5,
+     "savingsMs": 0,
+     "items": 5
+    },
+    {
+     "id": "dom-size",
+     "title": "Avoid an excessive DOM size",
+     "score": 0.5,
+     "savingsMs": null,
+     "items": 3
+    },
+    {
+     "id": "no-document-write",
+     "title": "Avoid `document.write()`",
+     "score": 0.5,
+     "savingsMs": null,
+     "items": 1
+    },
+    {
+     "id": "cache-insight",
+     "title": "Use efficient cache lifetimes",
+     "score": 0,
+     "savingsMs": 1400,
+     "items": 14
+    },
+    {
+     "id": "cls-culprits-insight",
+     "title": "Layout shift culprits",
+     "score": 0,
+     "savingsMs": null,
+     "items": 1
+    },
+    {
+     "id": "image-delivery-insight",
+     "title": "Improve image delivery",
+     "score": 0,
+     "savingsMs": 450,
+     "items": 7
+    },
+    {
+     "id": "lcp-discovery-insight",
+     "title": "LCP request discovery",
+     "score": 0,
+     "savingsMs": 0,
+     "items": 2
+    },
+    {
+     "id": "legacy-javascript-insight",
+     "title": "Legacy JavaScript",
+     "score": 0,
+     "savingsMs": 100,
+     "items": 3
+    },
+    {
+     "id": "network-dependency-tree-insight",
+     "title": "Network dependency tree",
+     "score": 0,
+     "savingsMs": 0,
+     "items": 3
+    },
+    {
+     "id": "render-blocking-insight",
+     "title": "Render blocking requests",
+     "score": 0,
+     "savingsMs": 0,
+     "items": 2
+    }
+   ],
+   "warnings": []
+  }
+ ]
+}

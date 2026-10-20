@@ -1,0 +1,37 @@
+{
+ "page": {
+  "id": "astrazeneca",
+  "company": "AstraZeneca",
+  "group": "Peer",
+  "page": "Home",
+  "url": "https://www.astrazeneca.com/"
+ },
+ "audited": "2026-10-20",
+ "device": "mobile",
+ "runs": [
+  {
+   "finalUrl": "https://www.astrazeneca.com/",
+   "status": "blocked",
+   "error": "Lighthouse was unable to reliably load the page you requested. Make sure you are testing the correct URL and that the server is properly responding to all requests. (Status code: 403)",
+   "scores": {
+    "performance": null,
+    "accessibility": null,
+    "best-practices": null,
+    "seo": null
+   },
+   "metrics": {
+    "largest-contentful-paint": null,
+    "cumulative-layout-shift": null,
+    "total-blocking-time": null,
+    "first-contentful-paint": null,
+    "speed-index": null,
+    "total-byte-weight": null,
+    "server-response-time": null
+   },
+   "failing": [],
+   "warnings": [
+    "Lighthouse was unable to reliably load the page you requested. Make sure you are testing the correct URL and that the server is properly responding to all requests. (Status code: 403)"
+   ]
+  }
+ ]
+}

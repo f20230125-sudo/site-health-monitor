@@ -1,0 +1,183 @@
+{
+ "page": {
+  "id": "msd-pipeline",
+  "company": "MSD",
+  "group": "MSD",
+  "page": "Product pipeline",
+  "url": "https://www.msd.com/research/product-pipeline/"
+ },
+ "audited": "2026-10-20",
+ "device": "mobile",
+ "runs": [
+  {
+   "finalUrl": "https://www.msd.com/research/product-pipeline/",
+   "status": "ok",
+   "error": null,
+   "scores": {
+    "performance": 0.74,
+    "accessibility": 0.93,
+    "best-practices": 1,
+    "seo": 0.85
+   },
+   "metrics": {
+    "largest-contentful-paint": 2030.7179999999998,
+    "cumulative-layout-shift": 0,
+    "total-blocking-time": 1266,
+    "first-contentful-paint": 1205.7179999999998,
+    "speed-index": 3501.2133140582437,
+    "total-byte-weight": 725563,
+    "server-response-time": 1078.0590000000002
+   },
+   "failing": [
+    {
+     "id": "max-potential-fid",
+     "title": "Max Potential First Input Delay",
+     "score": 0.03,
+     "savingsMs": null,
+     "items": null
+    },
+    {
+     "id": "interactive",
+     "title": "Time to Interactive",
+     "score": 0.62,
+     "savingsMs": null,
+     "items": null
+    },
+    {
+     "id": "mainthread-work-breakdown",
+     "title": "Minimize main-thread work",
+     "score": 0,
+     "savingsMs": null,
+     "items": 7
+    },
+    {
+     "id": "bootup-time",
+     "title": "Reduce JavaScript execution time",
+     "score": 0,
+     "savingsMs": null,
+     "items": 7
+    },
+    {
+     "id": "third-party-summary",
+     "title": "Reduce the impact of third-party code",
+     "score": 0,
+     "savingsMs": null,
+     "items": 3
+    },
+    {
+     "id": "unsized-images",
+     "title": "Image elements do not have explicit `width` and `height`",
+     "score": 0.5,
+     "savingsMs": null,
+     "items": 8
+    },
+    {
+     "id": "button-name",
+     "title": "Buttons do not have an accessible name",
+     "score": 0,
+     "savingsMs": null,
+     "items": 1
+    },
+    {
+     "id": "heading-order",
+     "title": "Heading elements are not in a sequentially-descending order",
+     "score": 0,
+     "savingsMs": null,
+     "items": 1
+    },
+    {
+     "id": "td-has-header",
+     "title": "`<td>` elements in a large `<table>` do not have table headers.",
+     "score": 0,
+     "savingsMs": null,
+     "items": 1
+    },
+    {
+     "id": "uses-long-cache-ttl",
+     "title": "Serve static assets with an efficient cache policy",
+     "score": 0.5,
+     "savingsMs": null,
+     "items": 2
+    },
+    {
+     "id": "render-blocking-resources",
+     "title": "Eliminate render-blocking resources",
+     "score": 0,
+     "savingsMs": 50,
+     "items": 2
+    },
+    {
+     "id": "unused-javascript",
+     "title": "Reduce unused JavaScript",
+     "score": 0.5,
+     "savingsMs": 0,
+     "items": 3
+    },
+    {
+     "id": "legacy-javascript",
+     "title": "Avoid serving legacy JavaScript to modern browsers",
+     "score": 0.5,
+     "savingsMs": 0,
+     "items": 5
+    },
+    {
+     "id": "dom-size",
+     "title": "Avoid an excessive DOM size",
+     "score": 0.5,
+     "savingsMs": null,
+     "items": 3
+    },
+    {
+     "id": "meta-description",
+     "title": "Document does not have a meta description",
+     "score": 0,
+     "savingsMs": null,
+     "items": null
+    },
+    {
+     "id": "link-text",
+     "title": "Links do not have descriptive text",
+     "score": 0,
+     "savingsMs": null,
+     "items": 1
+    },
+    {
+     "id": "cache-insight",
+     "title": "Use efficient cache lifetimes",
+     "score": 0.5,
+     "savingsMs": 0,
+     "items": 2
+    },
+    {
+     "id": "document-latency-insight",
+     "title": "Document request latency",
+     "score": 0,
+     "savingsMs": 1000,
+     "items": null
+    },
+    {
+     "id": "legacy-javascript-insight",
+     "title": "Legacy JavaScript",
+     "score": 0.5,
+     "savingsMs": 0,
+     "items": 3
+    },
+    {
+     "id": "network-dependency-tree-insight",
+     "title": "Network dependency tree",
+     "score": 0,
+     "savingsMs": 0,
+     "items": 3
+    },
+    {
+     "id": "render-blocking-insight",
+     "title": "Render blocking requests",
+     "score": 0,
+     "savingsMs": 200,
+     "items": 10
+    }
+   ],
+   "warnings": []
+  }
+ ]
+}
